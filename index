@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage borang</title>
+        </head>
+    <body bgcolor="white">
+     <header style="background-color:paleturquoise">
+      <h1><center>BANNER</center></h1> 
+    
+      </header>
+        <center>
+        <p><b>First Name:</b></br>
+        <input type="test" name="Firstname" value="" size="35" > </p>
+                    
+        <p><b>Last Name:</b></p>
+         <input type="test" name="last name" value="" size="35" > </p>
+        
+         <Label>Gender:</Label><br>
+                <input type="radio" name="gender" value="male" >Lelaki<br>
+                <input type="radio" name="gender" value="female">Perempuan<br><br>
+
+
+         <Label>Address:</Label><br>
+        <textarea name="text" name="alamat" size="50; nowrap" rows="5" cols="30" 
+        title="address" placeholder="alamat"> </textarea><br><br>
+
+        <Label><b>No.Telephone:</b></Label><br>
+                <input type="text" name="Telefon" size="30" maxlength="25" title="Phone.no" 
+                  pattern=[0-9][3]-[0-9][7,] placeholder="No.Telefon"/><br>
+ 
+        <p><b>E-mail</b></br>
+                <input type="text" name="email" value="" size="35"> </p>
+
+         <Label>Program:</Label><br>
+        <select value="negeri" size="1" title="state" >
+            <option value="TEKNOLOGI MAKLUMAT"> TEKNOLOGI MAKLUMAT</option>
+            <option value="TEKNOLOGI KOMPUTERAN"> TEKNOLOGI KOMPUTERAN</option>
+            <option value="PENYEJUKAN DAN PENYAMANAN UDARA"> PENYEJUKAN DAN PENYAMANAN UDARA</option>
+            <option value="AUTOMOTIF"> AUTOMOTIF</option>
+            <option value="REKA SENI FESYEN"> REKA SENI FESYEN</option>
+             <option value="ACCOUNT"> ACCOUNT</option>
+              <option value="SENI KULINARI"> SENI KULINARI</option>
+        </select> 
+
+        <br><br>
+                <p><i>After completed this form, click <strong>'submit'</strong> to register.
+                 </i></p>
+                 <p><input type="submit" value="Submit" title="CLICK here when confirm">
+                 <!--button-->
+
+        </center>
+
+        <br><br>
+        <footer style="background-color:paleturquoise">
+        Author:Dini <br>
+        &copy;Copyright reserved<br>
+        <small><a href="mailto:aianurdini24@gmail.com">ainanurdini24@gmail.com</a></small>
+        </footer>
+</body>
+</html>
 
